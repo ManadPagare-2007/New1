@@ -3,7 +3,7 @@ import streamlit as st
 import mysql.connector
 
 conn = mysql.connector.connect(
-    host="localhost",
+    host="127.0.0.1",
     user="root",
     password="Manad@2007",
     database="hackathondata"
@@ -159,5 +159,6 @@ elif st.session_state.selected_tab == "1":
 
 
     
+
 
 
